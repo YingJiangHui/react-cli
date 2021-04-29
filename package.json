@@ -1,0 +1,9 @@
+{
+  "name": "react-cli",
+  "version": "0.0.1",
+  "description": "snowpack+react cli",
+  "main": "index.js",
+  "repository": "git@github.com:YingJiangHui/react-cli.git",
+  "author": "dark <473380917@qq.com>",
+  "license": "MIT"
+}
