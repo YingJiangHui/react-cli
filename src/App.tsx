@@ -6,7 +6,7 @@ interface Props{
 
 const App:FC<Props> = (props)=>{
   
-  return (<div>Hello</div>)
+  return (<div>Hello22</div>)
 }
 
 export default App

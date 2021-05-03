@@ -1,5 +1,6 @@
 // Snowpack Configuration File
 // See all supported options: https://www.snowpack.dev/reference/configuration
+const path = require('path')
 
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
@@ -42,4 +43,7 @@ module.exports = {
     manifest: true,
     target: 'es2017',
   },
+  alias: {
+    "@src": path.resolve(__dirname, './src/'),
+  }
 };
