@@ -11,6 +11,7 @@
     "build": "snowpack build"
   },
   "devDependencies": {
+    "@snowpack/app-scripts-react": "^2.0.1",
     "@snowpack/plugin-typescript": "^1.2.1",
     "@snowpack/plugin-webpack": "^2.3.1",
     "@types/react": "^17.0.4",
