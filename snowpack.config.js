@@ -12,6 +12,7 @@ module.exports = {
     public: {url: '/', static: true},
   },
   plugins: [
+    '@snowpack/plugin-typescript',
     [
       '@snowpack/plugin-webpack',
       {
