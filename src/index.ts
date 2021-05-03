@@ -1,7 +1,7 @@
 console.log('hello');
-const sum = (a,b)=>{
+const sum = (a:number,b:number)=>{
   return a+b
 }
 class Animal {}
 const animal = new Animal()
-sum(1,2)
+console.log(sum(1, 2));
