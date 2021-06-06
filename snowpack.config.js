@@ -53,6 +53,6 @@ module.exports = {
     target: 'es2017',
   },
   alias: {
-    "@src": path.resolve(__dirname, './src/'),
+    "src": path.resolve(__dirname, './src/'),
   }
 };

@@ -1,7 +1,7 @@
-import {add} from "@src/add";
+import {calc} from "src/add";
 
 describe('add',()=>{
   it('can add',()=>{
-    expect(add(1,2)).toBe(3)
+    expect(calc('plus',1,2)).toBe(3)
   })
 })
