@@ -11,6 +11,12 @@ module.exports = {
     },
     extends: ['airbnb-typescript'],
     rules: {
+      'arrow-parens':[0],
+      '@typescript-eslint/no-shadow':[0],
+      'react/jsx-closing-tag-location':[0],
+      'block-spacing':[0],
+      'react/button-has-type':[0],
+      'react/jsx-one-expression-per-line':[0],
       'no-console':[0],
       'eol-last':[0],
       'consistent-return':[0],
