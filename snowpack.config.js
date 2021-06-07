@@ -32,7 +32,7 @@ module.exports = {
         watch: 'esw -w --clear src --ext .js,.jsx,.ts,.tsx',
       },
     ],
-
+    "./my-first-snowpack-plugin.js"
   ],
   packageOptions: {
     /* ... */
