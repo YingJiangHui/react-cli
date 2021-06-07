@@ -1,11 +1,15 @@
-import React,{FC} from 'react'
-interface Props{
+import React, {FC, useEffect,useState} from 'react';
+
+interface Props {
 
 }
 
-const App:FC<Props> = (props)=>{
-  
-  return (<div ></div>)
-}
+const App: FC<Props> = (props) => {
+  const [state,setState] = useState(1);
+  useEffect(() => {
+    console.log(state);
+  },[]);
+  return (<div>{state}</div>);
+};
 
-export default App
+export default App;

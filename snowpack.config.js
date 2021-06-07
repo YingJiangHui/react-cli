@@ -32,6 +32,7 @@ module.exports = {
         watch: 'esw -w --clear src --ext .js,.jsx,.ts,.tsx',
       },
     ],
+
   ],
   packageOptions: {
     /* ... */
