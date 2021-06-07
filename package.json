@@ -12,13 +12,16 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.13.13",
     "@snowpack/app-scripts-react": "^2.0.1",
+    "@snowpack/plugin-babel": "^2.1.7",
     "@snowpack/plugin-run-script": "^2.3.0",
     "@snowpack/plugin-typescript": "^1.2.1",
     "@snowpack/plugin-webpack": "^2.3.1",
     "@types/jest": "^26.0.23",
     "@types/react": "^17.0.4",
     "@types/react-dom": "^17.0.3",
+    "@types/styled-jsx": "^2.2.8",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
     "babel-eslint": "^10.1.0",
@@ -38,6 +41,7 @@
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "styled-jsx": "^3.4.4"
   }
 }
